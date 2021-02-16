@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   #CRUD
 
   #C
+  get "tasks/new", to: "tasks#new"
 
   #R List all tasks
   get "tasks", to: "tasks#index"

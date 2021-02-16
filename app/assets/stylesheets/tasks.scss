@@ -2,41 +2,57 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+// #container {
+//   width: 500px;
+//   margin: auto;
+// }
+
 #container {
-  width: 500px;
-  margin: auto;
+  padding-bottom: 30px;
+  width: fit-content;
 }
 
 ul {
   list-style-type: square;
   color: blue;
   font-size: 14px;
-  padding-left: 200px;
+  // padding-left: 200px;
+}
+
+#new-task {
+  border-radius: 30px;
+  background-color: pink;
+  padding: 10px;
+}
+
+#new-task a {
+  text-decoration: none;
 }
 
 li{
   padding-top: 10px;
 }
+
 h1 {
   font-size: 28px;
-  text-align: center;
+  // text-align: center;
   color: pink;
 }
 
 h2 {
   font-size: 24px;
-  text-align: center;
+  // text-align: center;
   color: pink;
 }
 
 p {
   font-size: 14px;
-  text-align: center;
+  // text-align: center;
   color: blue;
 }
 
 #boolean {
   font-size: 14px;
-  text-align: center;
+  // text-align: center;
   color: violet;
 }
