@@ -11,10 +11,32 @@ ul {
   list-style-type: square;
   color: blue;
   font-size: 14px;
+  padding-left: 200px;
 }
 
+li{
+  padding-top: 10px;
+}
 h1 {
   font-size: 28px;
   text-align: center;
   color: pink;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  color: pink;
+}
+
+p {
+  font-size: 14px;
+  text-align: center;
+  color: blue;
+}
+
+#boolean {
+  font-size: 14px;
+  text-align: center;
+  color: violet;
 }

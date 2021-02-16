@@ -1,6 +1,8 @@
 
-<h2> <%= @tasks.title %> </h2>
-<p>  <%= @tasks.details %> </p>
-<p> <strong> <%= @tasks.completed %> </strong> </p>
+<div id="container">
+  <h2> <%= @tasks.title %> </h2>
+  <p>  <%= @tasks.details %> </p>
+  <p id="boolean"> Completed: <strong> <%= @tasks.completed %> </strong> </p>
 
-<%= link_to "Back", tasks_path %>
+  <p> <%= link_to "Back", tasks_path %> </p>
+</div>
