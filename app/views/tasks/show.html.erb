@@ -1,8 +1,11 @@
 
 <div id="container">
-  <h2> <%= @tasks.title %> </h2>
-  <p>  <%= @tasks.details %> </p>
-  <p id="boolean"> Completed: <strong> <%= @tasks.completed %> </strong> </p>
+  <h2> <%= @task.title %> </h2>
+  <p>  <%= @task.details %> </p>
+  <p id="boolean"> Completed: <strong> <%= @task.completed %> </strong> </p>
 
   <p> <%= link_to "Back", tasks_path %> </p>
+  <p> <%= link_to "Delete #{@task.title}", destroy_path(@task), method: :delete %> </p>
 </div>
+
+
